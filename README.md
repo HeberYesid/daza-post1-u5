@@ -6,8 +6,8 @@ Aplicación Java Web con Servlets y JSP para gestionar tareas en memoria.
 
 - Listar tareas existentes (GET /tareas)
 - Agregar tarea nueva (POST /tareas, accion=agregar)
-- Eliminar tarea por ÃƒÂ­ndice (POST /tareas, accion=eliminar)
-- Patrón Post/Redirect/Get para evitar reenvÃƒÂ­o al recargar
+- Eliminar tarea por i­ndice (POST /tareas, accion=eliminar)
+- Patrón Post/Redirect/Get para evitar reenvio al recargar
 
 ## Prerrequisitos
 
@@ -15,7 +15,7 @@ Aplicación Java Web con Servlets y JSP para gestionar tareas en memoria.
 - Maven 3.8+
 - Apache Tomcat 10.x
 
-## EjecuciÃƒÂ³n
+## Ejecución
 
 1. Compilar: mvn clean package
 2. Desplegar el WAR generado en Tomcat
