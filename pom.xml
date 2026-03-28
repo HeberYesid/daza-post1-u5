@@ -35,6 +35,8 @@
   </dependencies>
 
   <build>
+    <finalName>gestion-tareas</finalName>
+
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -50,5 +52,5 @@
         <version>3.4.0</version>
       </plugin>
     </plugins>
-  </build>
+</build>
 </project>
